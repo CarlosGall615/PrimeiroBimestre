@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Registrar-se</legend>
+        <h3> Digite suas credenciais para acessar.</h3>
+        <form action="/rota" method="post">
+            
+            <label for="nome">Usuário</label><br>
+            <input placeholder="Digite um usuario"
+                    type="text"
+                    id="nome" 
+                    name="nome" required
+                    maxlength="10"
+                    title="tooltip"
+                    pattern="[A-Za-z\s]+"><br><br>
+            
+            <label for="email">E-mail</label><br>
+            <input placeholder="Seu e-mail" 
+                    type="email" id="email" 
+                    name="email" 
+                    required><br><br>
+            
+            <label for="senha">Senha</label><br>
+            <input placeholder="Digite uma senha" 
+                    type="password"
+                    id="senha" 
+                    name="senha" 
+                    required><br><br>
+            
+            <input type="submit" value="Enviar">
+            <button>Registrar-se</button><br><br>
+
+            <label for="comentario">Deixe um comentário</label><br>
+            <textarea name="comentario" id="comentario"
+                        rows="10" cols="45"></textarea>
+            
+        </form>
+    </fieldset><br>
+    
+    
+
+
+</body>
+</html>
