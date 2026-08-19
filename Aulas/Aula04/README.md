@@ -18,16 +18,12 @@ iniciar nosso repositório localmente somente uma vez
 ## Navegação em pastas no terminal
 
 - para voltar na pasta anterior digite
+
+
 > cd..
 - para entrar em um diretório digite
 > cd NOME_PASTA"
 - Listar itens e pastas em um diretório
 > ls ou ll 
-- 
 
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/CarlosGall615/PrimeiroBimestre.git
-git push -u origin main
+> Useful information that users should know, even when skimming content
