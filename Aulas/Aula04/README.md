@@ -19,7 +19,7 @@ iniciar nosso repositório localmente somente uma vez
 
 - para voltar na pasta anterior digite
 
->[!NOTION]
+
 > cd..
 - para entrar em um diretório digite
 > cd NOME_PASTA"
