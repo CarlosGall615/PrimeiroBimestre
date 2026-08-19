@@ -23,5 +23,11 @@ iniciar nosso repositório localmente somente uma vez
 > cd NOME_PASTA"
 - Listar itens e pastas em um diretório
 > ls ou ll 
+- 
 
-> Useful information that users should know, even when skimming content
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/CarlosGall615/PrimeiroBimestre.git
+git push -u origin main
