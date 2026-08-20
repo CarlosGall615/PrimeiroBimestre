@@ -1,0 +1,51 @@
+#externo{
+        margin: 20px;
+        height: auto;
+        width: 200px;
+        background-color: red;
+        color: whitesmoke;
+        padding: 10px;
+        
+}
+
+div h1 {
+    color: black;
+}
+
+span > h3 {
+    color: green;
+}
+
+span + h1 {
+    color: green;
+}
+
+h1 ~ p {
+    color: blueviolet;
+}
+
+.div :hover{
+    background-color: coral;
+    padding: 4px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.input :focus{
+    border-color: green;
+    border-radius: 20px;
+    border-width: 0;
+    padding: 10;
+    
+}
+
+main{
+    height: 100vh;
+    background-color: black;
+}
+
+*html{
+    margin: 0;
+    padding: 0;
+
+}

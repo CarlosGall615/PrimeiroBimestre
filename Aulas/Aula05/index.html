@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de CSS</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<style>
+    #interno{
+        height: 50px;
+        width: 200px;
+        background-color:greenyellow;
+        color: brown;
+
+        display: flex;
+        justify-items: center;
+        align-items: center ;
+    }
+</style>
+
+<body>
+    <main>
+
+        <section style="height: 200px; width: 300px; background-color: aqua;">
+            <h1 style="color: white;">Exemplo de CSS in-line</h1>
+        </section>
+
+        <section id="interno">
+            <h2> Vagalume </h2>
+        </section>
+
+        <section id="externo">
+            <h1> Exemplo CSS Externo (style.css) </h2>
+            <div class="div">
+                <h1> Exemplo CSS Externo (style.css) </h1>
+                <span>
+                    <h1> Exemplo 2</h3>
+                </span>
+                <p>Exemplo irmao geral</p>
+                <span>
+                    <p>Exemplo irmao</p>
+                </span>
+            </div>
+            </section>
+            
+            <section><br><br>
+                <input class="input" type="text" placeholder="Digite para ficar verde">
+            </section>
+        
+
+    </main>
+    
+</body>
+</html>
